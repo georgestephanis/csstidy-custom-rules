@@ -1,0 +1,30 @@
+#csstidy-custom-rules {
+  max-width: 500px;
+  > li {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #ccc;
+    &:last-child {
+      border-bottom: none;
+    }
+    input[type=text] {
+      margin-right: 2em;
+      max-width: 75%;
+    }
+    .row-actions {
+      display: block;
+    }
+    &:hover {
+      .row-actions {
+        position: static;
+      }
+    }
+    ul {
+      li {
+        input[type=checkbox] {
+
+        }
+      }
+    }
+  }
+}

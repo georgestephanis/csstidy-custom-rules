@@ -1,0 +1,15 @@
+#csstidy-custom-rules {
+  max-width: 500px; }
+  #csstidy-custom-rules > li {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #ccc; }
+    #csstidy-custom-rules > li:last-child {
+      border-bottom: none; }
+    #csstidy-custom-rules > li input[type=text] {
+      margin-right: 2em;
+      max-width: 75%; }
+    #csstidy-custom-rules > li .row-actions {
+      display: block; }
+    #csstidy-custom-rules > li:hover .row-actions {
+      position: static; }
